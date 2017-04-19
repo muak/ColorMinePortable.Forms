@@ -2,6 +2,12 @@
 
 This is the extensions that it made ColorMinePortable(https://github.com/muak/ColorMinePortable) correspond to Xamarin.Forms.
 
+## Nuget Installation
+
+```bash
+Install-Package ColorMinePortable.Forms
+```
+
 ## Extentions
 
 * Xamarin.Forms.Color conversion
