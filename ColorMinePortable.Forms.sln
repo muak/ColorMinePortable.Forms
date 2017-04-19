@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMinePortable.Forms", "ColorMinePortable.Forms\ColorMinePortable.Forms.csproj", "{F962DB05-52C0-4776-9CB8-4302A4747D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMinePortable.Forms.Tests", "ColorMinePortable.Forms.Tests\ColorMinePortable.Forms.Tests.csproj", "{7D4AF342-F158-4905-B0FA-3AB4C111216B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F962DB05-52C0-4776-9CB8-4302A4747D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F962DB05-52C0-4776-9CB8-4302A4747D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F962DB05-52C0-4776-9CB8-4302A4747D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F962DB05-52C0-4776-9CB8-4302A4747D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4AF342-F158-4905-B0FA-3AB4C111216B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4AF342-F158-4905-B0FA-3AB4C111216B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4AF342-F158-4905-B0FA-3AB4C111216B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4AF342-F158-4905-B0FA-3AB4C111216B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
