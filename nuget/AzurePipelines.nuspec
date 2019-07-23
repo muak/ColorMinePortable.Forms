@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>ColorMinePortable.Forms</id>
+        <version>2.0.0</version>
+        <title>ColorMinePortable for Xamarin.Forms</title>
+        <authors>kamu</authors>
+        <owners>kamu</owners>
+        <projectUrl>https://github.com/muak/ColorMinePortable.Forms</projectUrl>
+        <licenseUrl>https://github.com/muak/ColorMinePortable.Forms/blob/master/LICENSE.txt</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Color conversion netstandard class library</description>
+        <summary>
+            ## Supported Color Models:
+            * CMY
+            * CMYK
+            * HSL
+            * HSB
+            * HSV
+            * CIE L*AB
+            * Hunter LAB
+            * LCH
+            * LUV
+            * sRGB
+            * XYZ
+            * YXY
+            * Munsell
+            * Hex
+        </summary>
+
+        <releaseNotes>
+Supported .NET Standard 2.0
+        </releaseNotes>
+        <tags>Xamarin Forms Color Conversion Munsell CMYK HSL HSB HSV L*AB LCH LUV sRGB XYZ YXY HEX</tags>
+        <language>en-US</language>
+        <dependencies>
+            <group targetFramework="netstandard2.0">
+                <dependency id="Xamarin.Forms" version="4.1.0.581479" />
+                <dependency id="ColorMinePortable" version="2.0.1" />
+            </group>
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <!-- .net standard 2.0 -->
+        <file src="netstandard/ColorMinePortable.Forms.dll" target="lib/netstandard2.0" />
+        <file src="netstandard/ColorMinePortable.Forms.xml" target="lib/netstandard2.0" />
+        <file src="netstandard/ColorMinePortable.Forms.pdb" target="lib/netstandard2.0" />
+    </files>
+</package>
