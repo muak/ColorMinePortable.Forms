@@ -38,7 +38,6 @@ Supported .NET Standard 2.0
                 <dependency id="Xamarin.Forms" version="4.1.0.581479" />
                 <dependency id="ColorMinePortable" version="2.0.1" />
             </group>
-            </group>
         </dependencies>
     </metadata>
     <files>
